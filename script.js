@@ -206,7 +206,7 @@ async function saveAudioData() {
         currentTrackIndex: currentTrackIndex,
         isShuffled: isShuffled,
         loop: audioPlayer ? audioPlayer.loop : false,
-        volume: audioPlayer ? audioPlayer.volume : 0.5,
+        volume: audioPlayer ? audioPlayer.volume : 1.5,
         muted: audioPlayer ? audioPlayer.muted : false
     }));
     console.log("saveAudioData: Data audio přehrávače úspěšně uložena do LocalStorage.");
@@ -226,7 +226,7 @@ async function saveAudioData() {
             currentTrackIndex: currentTrackIndex,
             isShuffled: isShuffled,
             loop: audioPlayer ? audioPlayer.loop : false,
-            volume: audioPlayer ? audioPlayer.volume : 0.5,
+            volume: audioPlayer ? audioPlayer.volume : 1.5,
             muted: audioPlayer ? audioPlayer.muted : false
         });
         console.log("saveAudioData: Nastavení přehrávače úspěšně uložena do Firebase Firestore.");

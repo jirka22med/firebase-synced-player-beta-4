@@ -1125,7 +1125,7 @@ function initStorageSystem() {
             // Deaktivujeme tlačítko a spustíme animaci
             button.disabled = true;
             button.classList.add('loading');
-            resetText.textContent = 'Načítám...';
+            //resetText.textContent = 'Načítám...';
             
             try {
                 // Zavoláme naši reset funkci z audioFirebaseFunctions.js

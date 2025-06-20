@@ -1,4 +1,5 @@
 
+
 // --- Globální proměnné a konstanty ---
 const audioPlayer = document.getElementById('audioPlayer');
 const audioSource = document.getElementById('audioSource');

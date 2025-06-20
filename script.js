@@ -1138,8 +1138,8 @@ function initStorageSystem() {
                     
                     // Po 2 sekundách obnovíme původní stav
                     setTimeout(() => {
-                        resetText.textContent = 'Znovu načíst vše';
-                        resetIcon.textContent = '🔄';
+                       // resetText.textContent = 'Znovu načíst vše';
+                        //resetIcon.textContent = '🔄';
                         button.disabled = false;
                         button.classList.remove('loading');
                     }, 2000);
@@ -1152,13 +1152,13 @@ function initStorageSystem() {
                 console.error('Chyba při resetu:', error);
                 
                 // Chyba - zobrazíme chybový stav
-                resetText.textContent = 'Chyba!';
-                resetIcon.textContent = '❌';
+                //resetText.textContent = 'Chyba!';
+                //resetIcon.textContent = '❌';
                 
                 // Po 3 sekundách obnovíme původní stav
                 setTimeout(() => {
-                    resetText.textContent = 'Znovu načíst vše';
-                    resetIcon.textContent = '🔄';
+                    //resetText.textContent = 'Znovu načíst vše';
+                    //resetIcon.textContent = '🔄';
                     button.disabled = false;
                     button.classList.remove('loading');
                 }, 3000);
